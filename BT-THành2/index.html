@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TH</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="">
+</head>
+<body>
+<!-- Bài 6 -->
+<div>
+    <p class="Bai">Bài 6</p>
+</div>
+    <div class="box-login">
+        <h1 class="login">Log In </h1>
+        <p class="login2">Login here using your username and password</p>
+        <form action="#" method="post">
+            <div>
+                <input type="text"; class="textbox"; placeholder="UserName">
+            </div>
+            
+            <div>
+                <input type="password"; class="textbox"; placeholder="Password">
+            </div>
+            
+            <button class="buttonlogin">Log In</button>
+    
+            <div>
+                <button class="forgot">Forgot Password</button>
+                <button class="buttonsignup">Sign Up</button>
+            </div>
+        </form>
+    </div>
+
+    <!-- Bài 1 Phương trình bậc 1-->
+    <div>
+        <p class="Bai">Bài 1</p>
+    </div>
+    <div class="container">
+        <h1 class="gpt1">Giải phương trình bậc 1</h1>
+        <div class="input-group">
+            <label for="input-a">Nhập hệ số a:</label>
+            <input type="number" id="input-a">
+        </div>
+        <div class="input-group">
+            <label for="input-b">Nhập hệ số b:</label>
+            <input type="number" id="input-b">
+        </div>
+        <button class="btn1" onclick="giaiPhuongTrinh()">Giải phương trình</button>
+        <div class="result" id="result"></div>
+    </div>
+
+    
+    <!-- Bài 2 -->
+    <div>
+        <p class="Bai">Bài 2</p>
+    </div>
+    <div class="container2">
+        <h1>Đóng góp ý kiến sản phẩm</h1>
+        <form action="#" method="post">
+            <div class="input-group">
+                <label for="input-name">Họ và tên:</label>
+                <input type="text" id="input-name" required>
+            </div>
+            <div class="input-group">
+                <label for="input-card">Mã thẻ:</label>
+                <input type="text" id="input-card" required>
+            </div>
+            <div class="input-group">
+                <label for="input-phone">Số điện thoại:</label>
+                <input type="tel" id="input-phone" required>
+            </div>
+            <div class="input-group">
+                <label for="input-email">Email:</label>
+                <input type="email" id="input-email" required>
+            </div>
+            <div class="input-group">
+                <label for="input-customer-type">Loại khách hàng:</label>
+                <select id="input-customer-type" required>
+                    <option value="">Chọn loại khách hàng</option>
+                    <option value="vip">VIP</option>
+                    <option value="regular">Regular</option>
+                    <option value="new">New</option>
+                </select>
+            </div>
+            <div class="input-group">
+                <label for="input-invoice">Mã hoá đơn:</label>
+                <input type="text" id="input-invoice">
+            </div>
+            <div class="input-group">
+                <label for="input-description">Chi tiết mô tả:</label>
+                <textarea id="input-description" required></textarea>
+            </div>
+            <button class="btn2" type="submit">Gửi góp ý</button>
+        </form>
+    </div>
+    <!-- Bài 3 -->
+    <div>
+        <p class="Bai">Bài 3</p>
+    </div>
+   
+
+    <div class="box-3">
+        <form action="" name="dataform3">
+            <h1 class="tiude-3">LIÊN HỆ </h1>
+    
+        <div class="row-p3">
+            <div class="col-half">
+                <div class="col-p3">
+                    <h3 class="infor">Thông tin của tôi </h3>
+                   <p><i class="ti-location-pin"></i>496/32 - Dương Quảng Hàm, Phường 6, quận Gò Vấp, TP.HCM</p>
+                   <p><i class="ti-email"></i>pqkhanh6846@gmail.com</p>
+                   <p><i class="ti-mobile"></i>0354206846</p>
+                   
+                </div>
+    
+                <div class="col-p3">
+                    <h3 class="infor-to-me">Hãy liên lạc với tôi bất cứ lúc nào!</h3>
+                    <input class="input-grp3" type="text" placeholder="Họ và tên " name="ten">
+                    <input class="input-grp3" type="email" placeholder="Địa chỉ email " name="mail3">
+                    <input class="input-grp3" type="text" placeholder="Tiêu đề bài viết " name="title">
+                    <input class="input-grp3" type="text" placeholder="Số điện thoại" name="phone">
+                    <textarea name="contact" id="contact-p3" cols="30" rows="10"></textarea>
+                    <button onclick="sent()" class="btn-b3" type="submit"> Gửi tin nhắn </button>
+                </div>
+            
+    
+    
+            </div>
+            <div class="clear"></div>
+    
+    
+        </div>
+    <!-- Bài 5 -->
+    <div>
+        <p class="Bai">Bài 5</p>
+    </div>
+   
+
+    <div class="box-5">
+        
+        <div class="form-login">
+            <h1 class="hd-5">Login</h1>
+            <form action="" class="login-form" name="form5">
+                <div class="input-type">
+                    <input  class="type-ip" type="text" name="username" required>
+                    <span></span>
+                    <label  for="">User <i class="ti-user"></i></label>
+                </div>
+                <div class="input-type">
+                    <input class="type-ip"  type="password" name="pass"  required>
+                    <span></span>
+                    <label  for="">Password <i class="ti-key"></i></label>
+                </div>
+                
+
+                <div class="remem">
+                    <label for="">Lưu đăng nhập </label>
+                    <input type="checkbox" name="" id="">
+                </div>
+                <button id="login-btn" onclick="login()" type="submit">Login </button>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
